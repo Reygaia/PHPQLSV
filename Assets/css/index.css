@@ -1,0 +1,123 @@
+ body {
+       font-family: Arial, sans-serif;
+       background-color: #f4f4f4;
+       margin: 20px;
+       padding: 0;
+       text-align: center;
+ }
+
+ h2 {
+       color: #333;
+ }
+
+ a {
+       text-decoration: none;
+       background-color: #007bff;
+       color: white;
+       padding: 8px 12px;
+       border-radius: 5px;
+       display: inline-block;
+       margin: 10px 0;
+ }
+
+ a:hover {
+       background-color: #0056b3;
+ }
+
+ table {
+       width: 90%;
+       margin: auto;
+       border-collapse: collapse;
+       background: white;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       border-radius: 10px;
+       overflow: hidden;
+ }
+
+ th,
+ td {
+       padding: 12px;
+       border-bottom: 1px solid #ddd;
+       text-align: center;
+ }
+
+ th {
+       background: #007bff;
+       color: white;
+ }
+
+ td img {
+       border-radius: 5px;
+ }
+
+ td a {
+       font-size: 14px;
+       padding: 5px 8px;
+ }
+
+ /* Responsive */
+ @media (max-width: 768px) {
+       table {
+             width: 100%;
+       }
+
+       td,
+       th {
+             font-size: 14px;
+             padding: 8px;
+       }
+
+       td a {
+             display: block;
+             margin-bottom: 5px;
+       }
+ }
+
+ .btn-dangky {
+       display: inline-block;
+       padding: 5px 10px;
+       background-color: #28a745;
+       color: white;
+       text-decoration: none;
+       border-radius: 5px;
+ }
+
+ .btn-dangky:hover {
+       background-color: #218838;
+ }
+
+ .btn-container {
+       display: flex;
+       justify-content: center;
+       /* Căn giữa ngang */
+       gap: 20px;
+       /* Khoảng cách giữa 2 nút */
+       margin-bottom: 20px;
+ }
+
+ .btn-action,
+ .btn-login {
+       display: inline-block;
+       padding: 10px 20px;
+       font-size: 16px;
+       border-radius: 5px;
+       text-decoration: none;
+       color: white;
+       transition: background-color 0.3s ease;
+ }
+
+ .btn-action {
+       background-color: #007bff;
+ }
+
+ .btn-action:hover {
+       background-color: #0056b3;
+ }
+
+ .btn-login {
+       background-color: #28a745;
+ }
+
+ .btn-login:hover {
+       background-color: #218838;
+ }

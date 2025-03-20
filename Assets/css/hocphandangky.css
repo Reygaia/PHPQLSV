@@ -1,0 +1,107 @@
+/* Reset mặc định */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+}
+
+body {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+}
+
+/* Thanh menu */
+.navbar {
+      background-color: #222;
+      padding: 10px 0;
+      text-align: center;
+}
+
+.navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: inline-block;
+}
+
+.navbar a:hover {
+      background-color: #444;
+}
+
+/* Container chính */
+.container {
+      width: 60%;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+      margin-bottom: 20px;
+}
+
+/* Bảng hiển thị dữ liệu */
+table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+}
+
+th,
+td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+}
+
+th {
+      background-color: #007bff;
+      color: white;
+}
+
+td a {
+      color: red;
+      text-decoration: none;
+}
+
+td a:hover {
+      text-decoration: underline;
+}
+
+/* Thông tin học phần */
+.info {
+      font-weight: bold;
+      margin: 15px 0;
+}
+
+.info span {
+      color: red;
+}
+
+/* Nút bấm */
+button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 10px;
+}
+
+.btn-delete {
+      background-color: red;
+      color: white;
+}
+
+.btn-save {
+      background-color: green;
+      color: white;
+}
+
+button:hover {
+      opacity: 0.8;
+}

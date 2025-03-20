@@ -1,0 +1,79 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 10px;
+}
+
+.container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 450px;
+      /* Giới hạn chiều rộng */
+      width: 100%;
+      text-align: center;
+}
+
+h2 {
+      margin-bottom: 20px;
+      color: #333;
+}
+
+form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
+
+input,
+select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+}
+
+input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+      background-color: #0056b3;
+}
+
+/* Responsive cho màn hình nhỏ hơn 480px */
+@media (max-width: 480px) {
+      .container {
+            width: 90%;
+            /* Thu nhỏ để không tràn màn hình */
+            padding: 15px;
+      }
+
+      input,
+      select {
+            padding: 10px;
+            font-size: 14px;
+      }
+
+      input[type="submit"] {
+            font-size: 16px;
+      }
+}
